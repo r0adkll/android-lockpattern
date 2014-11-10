@@ -7,19 +7,25 @@ library hosted at: https://code.google.com/p/android-lockpattern/
 how to use
 ==========
 
-First set the ANDROID_HOME environment variable to point to your Android SDK location
+Set Android SDK path environment variable
 
-    $ export ANDROID_HOME='path to sdk'
+```bash
+$ export ANDROID_HOME='path to android sdk'
+```
 
 Push to your local maven repository
 
-    $ ./gradlew install
+```bash
+$ ./gradlew install
+```
 
 Now add the library to your project by adding ````compile 'com.haibison:androidLockPattern:1.0'```` to your dependencies.
 
-**Note: Make sure you have mavenLocalß under repositories**
+**Note: Make sure you have mavenLocal under repositories**
 
+```
 repositories {
-mavenLocal()
-mavenCentral()
+    mavenLocal()
+    mavenCentral()
 }
+```
