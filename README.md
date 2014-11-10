@@ -19,7 +19,7 @@ Push to your local maven repository
 $ ./gradlew install
 ```
 
-Now add the library to your project by adding ````compile 'com.haibison:androidLockPattern:1.0'```` to your dependencies.
+Now add the library to your project by adding ````compile 'com.haibison:androidLockPattern:1.0.0'```` to your dependencies.
 
 **Note: Make sure you have mavenLocal under repositories**
 
