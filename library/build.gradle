@@ -1,4 +1,9 @@
 apply plugin: 'com.android.library'
+apply plugin: 'android-maven'
+
+version = project.VERSION_NAME
+group = project.GROUP
+archivesBaseName = "androidLockPattern"
 
 android {
     compileSdkVersion 19
@@ -12,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            runProguard true
+            runProguard false
             proguardFiles 'proguard.cfg'
         }
     }
